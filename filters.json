@@ -1,0 +1,24 @@
+{
+  "apps": [
+    {
+      "appName": "Vortex Firewall",
+      "pkgName": "com.vortex.firewall"
+    },
+    {
+      "appName": "System",
+      "pkgName": "nonpkg.noname"
+    }
+  ],
+  "filters": [
+    {
+      "appName": "PUBG MOBILE",
+      "isCustom": true,
+      "mobile": "deny",
+      "pkg1Name": "com.tencent.ig",
+      "port": 17500,
+      "priority": 0,
+      "proto": "tcp",
+      "server": "*",
+      "serverStrType": "ip4",
+      "wifi": "deny"
+    },
